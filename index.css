@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #44202f;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 30px auto;
+  background: rgb(24, 23, 23);
+  border-radius: 10px;
+}
+
+#author-info {
+  text-align: center;
+}
+
+.author--img {
+  width: 100%;
+  margin: 0;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.author--name {
+  margin-bottom: 0;
+  font-size: larger;
+}
+  
+.author--title {
+  color: rgb(228, 208, 208);
+  font-weight: bolder;
+  letter-spacing: 5px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.author--location {
+  color: #d1acbb;
+  margin-top: 10px;
+}
+
+.buttons {
+  display: flex;
+  margin: 30px;
+  margin-bottom: 0;
+}
+
+.email-btn {
+  margin-right: 20px;
+}
+
+.info-icon {
+  height: 15px;
+  margin-right: 7px;
+  margin-bottom: -2px;
+}
+
+button {
+  padding: 9px 10px; 
+  border-radius: 5px;
+  border: none;
+  font-weight: bolder;
+  width: 100%;
+}
+
+.linkedin-btn {
+  background: rgb(60, 60, 124);
+  color: white;
+  margin-right: 0;
+}
+
+#about, #interests, #footer {
+  /* padding: 30px; */
+  padding: 0 30px;
+}
+
+#about > h2, #interests > h2{
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+#about > p, #interests > p {
+  line-height: 18px;
+  margin-top: 0px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+#about {
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+
+#interests {
+  margin-top: 24px;
+  margin-bottom: 30px;
+}
+
+#footer > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+#footer {
+  background-color: black;
+  padding: 5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
